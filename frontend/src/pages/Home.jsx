@@ -1,9 +1,10 @@
-import Hero from "@components/Hero";
+import { Hero, Gallery } from "@components/Home";
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <Gallery />
     </>
   )
 }

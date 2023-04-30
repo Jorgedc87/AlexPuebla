@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        'card-hover': 'rgb(0 0 0 / 40%) 0px 1.375rem 4.375rem 0.25rem',
+      }
+    },
   },
   plugins: [],
 }
